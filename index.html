@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <!-- Sekmeye Logo Ekleme -->
+    <link rel="icon" href="img/icon.png" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hero-image">
+      <div class="navbar">
+        <div class="container">
+          <a href="#"><img src="img/netflix_logo.png" alt="" /></a>
+          <form class="d-flex">
+            <div class="dropdown text-white p-1 me-2">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span><img src="img/world.png" alt="" /> Türkçe</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Türkçe</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+            </div>
+            <a href="#" role="button" class="btn btn-danger mx-3">Oturum Aç</a>
+          </form>
+        </div>
+      </div>
+      <div class="hero-text">
+        <h1>Sınırsız film,dizi ve çok daha fazlası</h1>
+        <h4>İstediğiniz yerde izleyin, istediğiniz zaman iptal edin</h4>
+        <p>
+          İzlemeye hazır mısınız? Üyelik oluşturmak veya üyeliğinize erişmek
+          için e-posta adresinizi girin
+        </p>
+        <div class="input-group">
+          <input
+            type="email"
+            placeholder="E-posta Adresi"
+            class="form-control col-sm-8"
+          />
+          <button class="btn btn-danger col-sm-4">Başlayın ></button>
+        </div>
+      </div>
+    </div>
+    <!-- Ekranlar -->
+    <!-- Container - 1 -->
+    <div class="container-fluid mt-2 arkaplan">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="text mt-5 pt-4">
+            <h1>Televizyonda İzleyebilirsiniz</h1>
+            <h3>
+              Akıllı Tv, Playstation, Xbox, Chormacast, Apple TV, Blue-ray
+              oynatıclar ve daha fazlasında seyredin
+            </h3>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <figure>
+            <img
+              src="img/resim1.png"
+              alt=""
+              class="img-fluid figure-img rounded"
+            />
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!-- Container - 2 -->
+    <div class="container-fluid mt-2 arkaplan">
+      <div class="row">
+        <div class="col-lg-6">
+          <figure>
+            <img
+              src="img/resim2.jpg"
+              alt=""
+              class="img-fluid figure-img rounded"
+            />
+          </figure>
+        </div>
+        <div class="col-lg-6">
+          <div class="text mt-5 pt-4">
+            <h1>Çevrimdışı içerikleri izlemek için indirin</h1>
+            <h3>
+              En sevdiğiniz içerikleri kaydedin ve her zaman izleyecek bir
+              şeyleriniz olsun
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Container - 3 -->
+    <div class="container-fluid mt-2 arkaplan">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="text mt-5 pt-4">
+            <h1>İstediğiniz her yerde izleyin</h1>
+            <h3>
+              Extra ücret ödemeden telefonda, tablette, bilgisyarda,
+              televizyonda sınırsız film ve dizi izleyin
+            </h3>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <figure>
+            <img
+              src="img/resim3.png"
+              alt=""
+              class="img-fluid figure-img rounded"
+            />
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!-- Container - 4 -->
+    <div class="container-fluid mt-2 arkaplan">
+      <div class="row">
+        <div class="col-lg-6">
+          <figure>
+            <img
+              src="img/resim4.png"
+              alt=""
+              class="img-fluid figure-img rounded"
+            />
+          </figure>
+        </div>
+        <div class="col-lg-6">
+          <div class="text mt-5 pt-4">
+            <h1>Çoçuklarınız için profil oluşturun</h1>
+            <h3>
+              Üyeliğinize dâhil olan bu ücretsiz deneyim sayesinde çocuklarınız,
+              sadece onlara özel bir alanadaen sevdikleri karakterlerle
+              maceralara atılabilirler
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Accordion Menu -->
+    <div class="container-fluid mt-2 arkaplan py-3">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              Netflix Nedir?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              dolores enim modi quis harum totam, labore eaque libero hic,
+              tenetur earum minus. Cupiditate aliquam laudantium ipsam beatae
+              saepe amet fugit veniam ducimus culpa nesciunt reiciendis iusto
+              dolores aut sed, delectus explicabo consectetur soluta magni.
+              Facere consectetur praesentium quidem vel at?.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Netflixin maliyeti nedir?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Provident nobis aliquid excepturi ipsum unde porro saepe
+              voluptatibus laudantium, suscipit blanditiis harum. Ipsam, rerum
+              repellat? Unde quaerat ab facilis doloremque consectetur.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              Nerede izleyebilirim?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+              odit nostrum non beatae hic voluptatibus sequi quis inventore
+              magnam, obcaecati harum atque at voluptas aut animi repellendus
+              officia cupiditate temporibus incidunt. Quasi modi dolore dolorum.
+              Expedita voluptatem nobis accusantium corporis praesentium, iusto
+              possimus, nulla adipisci corrupti repudiandae, reprehenderit
+              magnam quibusdam mollitia molestiae dignissimos quae nisi?
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse4"
+              aria-expanded="false"
+              aria-controls="flush-collapse4"
+            >
+              Nasıl İptal Edebilirim?
+            </button>
+          </h2>
+          <div
+            id="flush-collapse4"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              ullam nesciunt architecto perspiciatis numquam suscipit repellat
+              autem, neque ratione officia!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse5"
+              aria-expanded="false"
+              aria-controls="flush-collapse5"
+            >
+              Netflix de ne izleyebilirim?
+            </button>
+          </h2>
+          <div
+            id="flush-collapse5"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              ullam nesciunt architecto perspiciatis numquam suscipit repellat
+              autem, neque ratione officia!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse6"
+              aria-expanded="false"
+              aria-controls="flush-collapse6"
+            >
+              Netflix Çocuklar için uygun mu?
+            </button>
+          </h2>
+          <div
+            id="flush-collapse6"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              officiis nam, dignissimos adipisci incidunt reprehenderit non
+              animi quis culpa facere? Aspernatur mollitia laboriosam esse,
+              ullam quis sit suscipit quam sed, iusto vel quos assumenda
+              eligendi harum, id itaque dignissimos non voluptates fugiat
+              ducimus architecto aliquam laudantium asperiores? Et officia
+              veniam aperiam? Assumenda ab quisquam est, recusandae molestiae
+              esse ullam laborum.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="mt-5" style="width: 75%; margin: auto">
+        İzlemeye hazır mısınız? Üyelik oluşturmak veya üyeliğinize erişmek için
+        e-posta adresinizi giriniz
+      </p>
+      <div class="input-group py-3" style="width: 75%; margin: auto">
+        <input
+          type="email"
+          placeholder="E-posta Adresi"
+          class="form-control col-sm-8"
+        />
+        <button class="btn btn-danger col-sm-4">Başlayın ></button>
+      </div>
+    </div>
+    <footer class="container-fluid arkaplan mt-2">
+      <div class="row">
+        <p class="mt-3">
+          Sorularınız mı var? 0850-390-7444 numaralı telefonu arayın
+        </p>
+        <div class="col-lg-3 col-6">
+          <!-- ul.navbar-nav>li.nav-item*4>a.nav-link -->
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link">SSS</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Yatırımcı İlişkileri</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Kullanım Koşulları</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Bize Ulaşın</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Yardım Merkezi</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">İş İmkanları</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Gizlilik</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Hız Testi</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link">Hesap</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Hediye Kartı Kullanım</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Çerez Tercihleri</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Yasal Hükümler</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Medya Merkezi</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">İzleme Yolları</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Kurumsal Bilgiler</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Sadece Netflixte</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="dropdown text-white p-1 me-2 mb-4">
+          <a
+            href="#"
+            class="nav-link dropdown-toggle border border-1 border-secondary d-inline-block p-3 rounded-2"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span><img src="img/world.png" alt="" /> Türkçe</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Türkçe</a></li>
+            <li><a class="dropdown-item" href="#">English</a></li>
+          </ul>
+        </div>
+        <p>@Neos Yazılım 4 Aralık 2023 C# Full Stack Yazılım Grubu</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

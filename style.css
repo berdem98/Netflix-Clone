@@ -1,0 +1,55 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    background-color: rgb(34, 34, 34);
+}
+.hero-image{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/arkaplan.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero-text h1{
+    font-size: 5vw;
+    font-weight: bold;
+}
+.input-group input{
+    padding: 20px;
+}
+.arkaplan{
+    background-color: black;
+    color: white;
+}
+.arkaplan .row{
+    width: 75%;
+    margin: auto;
+}
+
+.accordion-button,.accordion-flush,.accordion-body{
+    
+    background-color: rgb(34, 34, 34) !important;
+    color: white !important;
+    margin: auto !important;
+    text-decoration: none;
+}
+.accordion-flush{
+    width: 75%;
+}
+
+footer,.nav-link,footer p{
+    color: grey;
+}
+footer .nav-link:hover{
+    color: grey;
+    text-decoration: underline;
+}
